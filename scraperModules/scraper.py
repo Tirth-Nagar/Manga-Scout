@@ -1,17 +1,7 @@
-import os
 import asyncio
 import aiohttp
-import pymongo
 from bs4 import BeautifulSoup
-from discord.ext import commands
-from pymongo import MongoClient
 from dotenv import load_dotenv
-
-CONNECTION_URL = os.getenv('CONNECTION_URL')
-
-cluster = MongoClient(CONNECTION_URL)
-database = cluster["Manga-Update"]
-collection = database["User-Data"]
 
 async def getPage(session,url):
     async with session.get(url) as response:
