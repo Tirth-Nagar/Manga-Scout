@@ -1,7 +1,6 @@
 import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
-from dotenv import load_dotenv
 
 async def getPage(session,url):
     async with session.get(url) as response:
