@@ -20,7 +20,6 @@ intents = discord.Intents.all()
 cluster = MongoClient(CONNECTION_URL)
 database = cluster["Manga-Update"]
 collection = database["User-Data"]
-# print(database)
 
 # Setting up the bot
 bot = commands.Bot(command_prefix='?',intents=intents,pass_context=True)
