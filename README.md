@@ -19,10 +19,10 @@ This is a Discord bot that keeps track of the latest chapter releases for your f
 1. Clone this repository to your local machine
 2. Install the required dependencies by running `pip install -r requirements.txt`
 3. Create a `.env` file in the root directory of the project with the following variables:
-
-DISCORD_TOKEN=your_discord_bot_token_here
-CONNECTION_URL=your_mongodb_connection_url_here
-
+```
+DISCORD_TOKEN = your_discord_bot_token_here
+CONNECTION_URL = your_mongodb_connection_url_here
+```
 4. Run `python main.py` to start the bot
 
 ## Usage
