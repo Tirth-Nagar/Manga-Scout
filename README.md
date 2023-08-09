@@ -33,9 +33,7 @@ Once the bot is up and running, you can interact with it using the following com
 - `?list_remove <manga_title1>/<manga_title2>/...`: removes one or more manga titles from your reading list
 - `?delete_list`: deletes your entire reading list
 - `?updates`: checks for new chapter updates for manga on your reading list
-
-Note: The bot will check for updates every 5 minutes, so you may not receive immediate notifications for new releases.
-
+  
 ## Contributing
 Contributions to this project are welcome! Feel free to submit bug reports, feature requests, or pull requests on GitHub.
 
