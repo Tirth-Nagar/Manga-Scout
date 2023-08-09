@@ -1,6 +1,6 @@
-# Discord Manga Update Bot
+# Manga Scout
 
-This is a Discord bot that keeps track of the latest chapter releases for your favorite manga. The bot will automatically scrape updates from fanfox.net and send you a notification message on Discord whenever a new chapter is released for any manga in your reading list.
+This is a Discord bot that keeps track of the latest chapter releases for your favorite manga/manhwa/manhua. The bot will automatically scrape updates from fanfox.net and send you a notification message on Discord whenever a new chapter is released for any manga in your reading list.
 
 ## Features
 - Add and manage a reading list of manga titles
